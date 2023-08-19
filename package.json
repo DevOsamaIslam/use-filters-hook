@@ -1,0 +1,36 @@
+{
+  "name": "use-filters-hook",
+  "version": "0.1.0",
+  "description": "A React hook to easily manage filters for data fetching or UI manipulation.",
+  "main": "dist/useFilters.js",
+  "types": "dist/useFilters.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevOsamaIslam/use-filters-hook.git"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "filters",
+    "manage",
+    "data-fetching"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DevOsamaIslam/use-filters-hook/issues"
+  },
+  "homepage": "https://github.com/DevOsamaIslam/use-filters-hook#readme",
+  "peerDependencies": {
+    "react": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.20",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {}
+}
